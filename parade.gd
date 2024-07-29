@@ -51,9 +51,6 @@ func _process(_delta: float) -> void:
 
 		if Input.is_action_just_pressed("ui_cancel"):
 			get_tree().quit()
-	else:
-		if Input.is_action_just_pressed("ui_cancel"):
-			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 
 	if Input.is_action_just_pressed("fullscreen"):
 		if DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN:
@@ -104,12 +101,13 @@ func _chunk(array: Array, chunkSize: int) -> Array:
 func _on_button_pressed() -> void:
 	if started:
 		return
-
 	started = true
 
-	%CenterContainer.queue_free()
-	%GooberHere.queue_free()
+	%Button.disabled = true
+	%Button.disconnect("pressed", Callable(self, "_on_button_pressed"))
 	
+	%CenterContainer.visible = false
+	%GooberHere.visible = false
 	$BGM.play()
 
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
@@ -120,6 +118,8 @@ func _on_button_pressed() -> void:
 	await tween.finished
 
 	$Control.queue_free()
+	%CenterContainer.queue_free()
+	%GooberHere.queue_free()
 	spawn_next_minawan()
 
 func _closing_parade() -> void:
