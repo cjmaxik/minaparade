@@ -8,6 +8,7 @@ var last_group: Array = [
 	load("res://minasonas/jenwan.png"),
 	load("res://minasonas/Jokerwan.png"),
 ]
+var started: bool = false
 
 var chants: Array = [
 	["Man I love Cerber", load("res://emotes/MILC.png")],
@@ -101,10 +102,16 @@ func _chunk(array: Array, chunkSize: int) -> Array:
 	return chunks
 
 func _on_button_pressed() -> void:
-	$BGM.play()
+	if started:
+		return
+
+	started = true
 
 	%CenterContainer.queue_free()
 	%GooberHere.queue_free()
+	
+	$BGM.play()
+
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	await get_tree().create_timer(0.5).timeout
 
