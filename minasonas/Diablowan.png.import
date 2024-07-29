@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdc73vjjkuqnb"
-path.s3tc="res://.godot/imported/Diablowan.png-26c01c613f690a3f2d717672f1ddde8a.s3tc.ctex"
+uid="uid://cjgl2ngmqwjy1"
+path="res://.godot/imported/Diablowan.png-26c01c613f690a3f2d717672f1ddde8a.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Diablowan.png"
-dest_files=["res://.godot/imported/Diablowan.png-26c01c613f690a3f2d717672f1ddde8a.s3tc.ctex"]
+dest_files=["res://.godot/imported/Diablowan.png-26c01c613f690a3f2d717672f1ddde8a.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

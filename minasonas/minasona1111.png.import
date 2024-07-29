@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6lqthw7oh38y"
-path.s3tc="res://.godot/imported/jenbot_minasona_redraw_by_scottwan-removebg.png-bc388de7dc6d4eb937e7776c2e2f111b.s3tc.ctex"
+uid="uid://b5xu6wy7r7cmg"
+path="res://.godot/imported/minasona1111.png-f963b5bdc2babbed761e32b05bbacc7c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://minasonas/jenbot_minasona_redraw_by_scottwan-removebg.png"
-dest_files=["res://.godot/imported/jenbot_minasona_redraw_by_scottwan-removebg.png-bc388de7dc6d4eb937e7776c2e2f111b.s3tc.ctex"]
+source_file="res://minasonas/minasona1111.png"
+dest_files=["res://.godot/imported/minasona1111.png-f963b5bdc2babbed761e32b05bbacc7c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

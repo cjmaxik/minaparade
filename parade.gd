@@ -2,24 +2,31 @@ extends Node2D
 
 var minawan_group = preload("res://minawan_group.tscn")
 var all_minawan: Array = []
-var cjWan: Resource
+var last_group: Array = [
+	load("res://minasonas/CJwan.png"),
+	load("res://minasonas/Kaliwan.png"),
+	load("res://minasonas/jenwan.png"),
+	load("res://minasonas/Jokerwan.png"),
+]
 
 var chants: Array = [
 	["Man I love Cerber", load("res://emotes/MILC.png")],
-	["MOGU MOGU", load("res://emotes/party.png")],
+	["MOGU MOGU", load("res://emotes/party.webp")],
 	["Man I love Slugber", load("res://emotes/MILS.webp")],
-	["Lore video\npremiere NOW!", load("res://emotes/Munch.webp")],
+	["Lore video\npremiere NOW!", load("res://emotes/YAY.webp")],
 	["Man I love Orber", load("res://emotes/MILO.png")],
 	["WAN WAN WAN WAN", load("res://emotes/WANWAN.png")],
 	["Man I love Ember", load("res://emotes/MILE.webp")],
 	["AWOOOOOOOOOO", load("res://emotes/awoo.png")],
 	["PRAISE THE ORBER", load("res://emotes/flushed.webp")],
-	["Fwoot punch\nfor everywan!", load("res://emotes/YAY.webp")],
+	["PEETZA!", load("res://emotes/Munch.webp")],
 	["WHERE IS CERBER", load("res://emotes/WHERE.png")],
 	["Pay your taxes!", load("res://emotes/Pet.webp")],
 	["THEY ARE\nCHOCOLATE", load("res://emotes/Smug.webp")],
 	["Stay away\nnoise monster", load("res://emotes/Angy.webp")],
-	["Butter dawg", load("res://emotes/Angy.webp")],
+	["MINAWAN, ASSEMBLE", load("res://emotes/LETSGO.webp")],
+	["Ara Ara~", load("res://emotes/Blushed.webp")],
+	["SPOIL THE DAWG!", load("res://emotes/puddle.webp")],
 ]
 var current_chant: int = 0
 
@@ -28,10 +35,12 @@ func _init() -> void:
 	for fname in DirAccess.get_files_at(path):
 		var import_name: String = fname.trim_suffix(".import")
 		if fname.ends_with(".import") and ResourceLoader.exists(path + import_name):
-			var minawan = load(path + import_name)
-			if fname.begins_with("CJwan"):
-				cjWan = minawan
+			print_debug("Found %s" % import_name)
+			if fname.begins_with("CJwan") or fname.begins_with("jenwan") or fname.begins_with("Kaliwan") or fname.begins_with("Jokerwan"):
+				print_debug("--- Skipping %s" % import_name)
+				continue
 			else:
+				var minawan = load(path + import_name)
 				all_minawan.append(minawan)
 
 func _process(_delta: float) -> void:
@@ -58,8 +67,8 @@ func _ready() -> void:
 
 	randomize()
 	all_minawan.shuffle()
-	all_minawan.push_back(cjWan)
 	all_minawan = _chunk(all_minawan, 5)
+	all_minawan.append(last_group)
 
 func spawn_next_minawan() -> void:
 	if all_minawan.size() == 0:
@@ -79,8 +88,7 @@ func spawn_next_minawan() -> void:
 		instance.rickroll = true
 	add_child(instance)
 	
-	print("%s chunks, %s chants left" % [all_minawan.size(), chants.size() - current_chant])
-
+	print_debug("%s chunks, %s chants left" % [all_minawan.size(), chants.size() - current_chant])
 
 func _chunk(array: Array, chunkSize: int) -> Array:
 	array = array.duplicate()
@@ -108,7 +116,7 @@ func _on_button_pressed() -> void:
 	spawn_next_minawan()
 
 func _closing_parade() -> void:
-	print("Closing parade")
+	print_debug("Closing parade")
 	await get_tree().create_timer(4.0).timeout
 	var tween = get_tree().create_tween()
 	tween.tween_property($Control2, "modulate:a", 1.0, 10.0)

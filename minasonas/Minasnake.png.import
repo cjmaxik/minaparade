@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gsh5757jduo"
-path.s3tc="res://.godot/imported/Minasnake.png-61063c80aff2cdace495d7373eaa5377.s3tc.ctex"
+uid="uid://bxex33ilbpmjg"
+path="res://.godot/imported/Minasnake.png-61063c80aff2cdace495d7373eaa5377.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Minasnake.png"
-dest_files=["res://.godot/imported/Minasnake.png-61063c80aff2cdace495d7373eaa5377.s3tc.ctex"]
+dest_files=["res://.godot/imported/Minasnake.png-61063c80aff2cdace495d7373eaa5377.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

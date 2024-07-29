@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://02sedsi51yft"
-path.s3tc="res://.godot/imported/Forestisagrandpanyawan.png-a90a703af90cc78b7502a769e24e04e3.s3tc.ctex"
+uid="uid://d0upcp2jgic1i"
+path="res://.godot/imported/Forestisagrandpanyawan.png-a90a703af90cc78b7502a769e24e04e3.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Forestisagrandpanyawan.png"
-dest_files=["res://.godot/imported/Forestisagrandpanyawan.png-a90a703af90cc78b7502a769e24e04e3.s3tc.ctex"]
+dest_files=["res://.godot/imported/Forestisagrandpanyawan.png-a90a703af90cc78b7502a769e24e04e3.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

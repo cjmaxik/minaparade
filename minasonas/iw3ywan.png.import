@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dv3l8arrpoyca"
-path.s3tc="res://.godot/imported/iw3ywan.png-43207c5a7b1aaf19cf71fc8ef8fe684c.s3tc.ctex"
+uid="uid://ry1dwrks7ksw"
+path="res://.godot/imported/iw3ywan.png-43207c5a7b1aaf19cf71fc8ef8fe684c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/iw3ywan.png"
-dest_files=["res://.godot/imported/iw3ywan.png-43207c5a7b1aaf19cf71fc8ef8fe684c.s3tc.ctex"]
+dest_files=["res://.godot/imported/iw3ywan.png-43207c5a7b1aaf19cf71fc8ef8fe684c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

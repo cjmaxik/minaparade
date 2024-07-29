@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://biv8ognjiwvkr"
-path.s3tc="res://.godot/imported/Rarawan.png-136a05a13b711d4414b4e525a6aaecdf.s3tc.ctex"
+uid="uid://cvp1owurwuds"
+path="res://.godot/imported/Rarawan.png-136a05a13b711d4414b4e525a6aaecdf.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Rarawan.png"
-dest_files=["res://.godot/imported/Rarawan.png-136a05a13b711d4414b4e525a6aaecdf.s3tc.ctex"]
+dest_files=["res://.godot/imported/Rarawan.png-136a05a13b711d4414b4e525a6aaecdf.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2walvex33x0r"
-path.s3tc="res://.godot/imported/Kelowan_.png-1aa4807d963f7ee84acc1d5d3180d497.s3tc.ctex"
+uid="uid://hew7qctx54g3"
+path="res://.godot/imported/Kelowan_.png-1aa4807d963f7ee84acc1d5d3180d497.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Kelowan_.png"
-dest_files=["res://.godot/imported/Kelowan_.png-1aa4807d963f7ee84acc1d5d3180d497.s3tc.ctex"]
+dest_files=["res://.godot/imported/Kelowan_.png-1aa4807d963f7ee84acc1d5d3180d497.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://iq5oiitk44qh"
-path.s3tc="res://.godot/imported/daavko-minasona_nobg.png-39b5aed0b738aa183ec94797bd658e3a.s3tc.ctex"
+uid="uid://yq6ib7g03ppx"
+path="res://.godot/imported/daavko-minasona_nobg.png-39b5aed0b738aa183ec94797bd658e3a.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/daavko-minasona_nobg.png"
-dest_files=["res://.godot/imported/daavko-minasona_nobg.png-39b5aed0b738aa183ec94797bd658e3a.s3tc.ctex"]
+dest_files=["res://.godot/imported/daavko-minasona_nobg.png-39b5aed0b738aa183ec94797bd658e3a.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

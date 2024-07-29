@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bonnmt4mx5tpm"
-path.s3tc="res://.godot/imported/Kiro_CerberDisguise.png-d336f836ca44ef1be86582c6a162eebc.s3tc.ctex"
+uid="uid://cangypyek26ug"
+path="res://.godot/imported/Kiro_CerberDisguise.png-d336f836ca44ef1be86582c6a162eebc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Kiro_CerberDisguise.png"
-dest_files=["res://.godot/imported/Kiro_CerberDisguise.png-d336f836ca44ef1be86582c6a162eebc.s3tc.ctex"]
+dest_files=["res://.godot/imported/Kiro_CerberDisguise.png-d336f836ca44ef1be86582c6a162eebc.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

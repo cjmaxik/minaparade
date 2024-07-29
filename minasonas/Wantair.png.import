@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://conyemn760715"
-path.s3tc="res://.godot/imported/Wantair.png-90b0981ed22ae457e257535bd3c0774c.s3tc.ctex"
+uid="uid://cgh1b5c5pupsd"
+path="res://.godot/imported/Wantair.png-90b0981ed22ae457e257535bd3c0774c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Wantair.png"
-dest_files=["res://.godot/imported/Wantair.png-90b0981ed22ae457e257535bd3c0774c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Wantair.png-90b0981ed22ae457e257535bd3c0774c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8stekucrycgd"
-path.s3tc="res://.godot/imported/Minanya_.png-5d2217ac2dc2a390d55301b3f7842020.s3tc.ctex"
+uid="uid://dts05jomrpjdt"
+path="res://.godot/imported/Minanya_.png-5d2217ac2dc2a390d55301b3f7842020.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Minanya_.png"
-dest_files=["res://.godot/imported/Minanya_.png-5d2217ac2dc2a390d55301b3f7842020.s3tc.ctex"]
+dest_files=["res://.godot/imported/Minanya_.png-5d2217ac2dc2a390d55301b3f7842020.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

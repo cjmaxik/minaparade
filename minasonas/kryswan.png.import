@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcekkuok5qifp"
-path.s3tc="res://.godot/imported/kryswan.png-7e7c3e668d59a9bc07044ce5ab638a5f.s3tc.ctex"
+uid="uid://belkjwuqdjkcj"
+path="res://.godot/imported/kryswan.png-7e7c3e668d59a9bc07044ce5ab638a5f.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/kryswan.png"
-dest_files=["res://.godot/imported/kryswan.png-7e7c3e668d59a9bc07044ce5ab638a5f.s3tc.ctex"]
+dest_files=["res://.godot/imported/kryswan.png-7e7c3e668d59a9bc07044ce5ab638a5f.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

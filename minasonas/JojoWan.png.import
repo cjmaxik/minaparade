@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4kv02apw4lwd"
-path.s3tc="res://.godot/imported/JojoWan.png-7e70e2679a3976c327b2005cf69003a4.s3tc.ctex"
+uid="uid://cfj53mpqyfdso"
+path="res://.godot/imported/JojoWan.png-7e70e2679a3976c327b2005cf69003a4.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/JojoWan.png"
-dest_files=["res://.godot/imported/JojoWan.png-7e70e2679a3976c327b2005cf69003a4.s3tc.ctex"]
+dest_files=["res://.godot/imported/JojoWan.png-7e70e2679a3976c327b2005cf69003a4.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

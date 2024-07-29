@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://co5c4ro3xl1d3"
-path.s3tc="res://.godot/imported/Kaliwan.png-5c63a5a701b3e11e73456c4ed7bf7ad1.s3tc.ctex"
+uid="uid://btlfk40sse8c6"
+path="res://.godot/imported/Kaliwan.png-5c63a5a701b3e11e73456c4ed7bf7ad1.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Kaliwan.png"
-dest_files=["res://.godot/imported/Kaliwan.png-5c63a5a701b3e11e73456c4ed7bf7ad1.s3tc.ctex"]
+dest_files=["res://.godot/imported/Kaliwan.png-5c63a5a701b3e11e73456c4ed7bf7ad1.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

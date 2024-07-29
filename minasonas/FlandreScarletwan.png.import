@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ex4gbvgyvlci"
-path.s3tc="res://.godot/imported/FlandreScarletwan.png-80c0ebd203fd89235af1326b63096b7a.s3tc.ctex"
+uid="uid://bi5g6qtus11px"
+path="res://.godot/imported/FlandreScarletwan.png-80c0ebd203fd89235af1326b63096b7a.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/FlandreScarletwan.png"
-dest_files=["res://.godot/imported/FlandreScarletwan.png-80c0ebd203fd89235af1326b63096b7a.s3tc.ctex"]
+dest_files=["res://.godot/imported/FlandreScarletwan.png-80c0ebd203fd89235af1326b63096b7a.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

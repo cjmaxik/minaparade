@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dayjf6ibt1puy"
-path.s3tc="res://.godot/imported/ShinobiCatWan.png-315bba4ba16bb41d6908c671abbf5c01.s3tc.ctex"
+uid="uid://dc4mgrdw7lxwr"
+path="res://.godot/imported/ShinobiCatWan.png-315bba4ba16bb41d6908c671abbf5c01.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/ShinobiCatWan.png"
-dest_files=["res://.godot/imported/ShinobiCatWan.png-315bba4ba16bb41d6908c671abbf5c01.s3tc.ctex"]
+dest_files=["res://.godot/imported/ShinobiCatWan.png-315bba4ba16bb41d6908c671abbf5c01.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

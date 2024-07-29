@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3ig6ywb1iniu"
-path.s3tc="res://.godot/imported/Ganwan.png-c708fba3f06d6fff7c6e08e0071c049e.s3tc.ctex"
+uid="uid://b8nnlb27jyfsr"
+path="res://.godot/imported/Ganwan.png-c708fba3f06d6fff7c6e08e0071c049e.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Ganwan.png"
-dest_files=["res://.godot/imported/Ganwan.png-c708fba3f06d6fff7c6e08e0071c049e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ganwan.png-c708fba3f06d6fff7c6e08e0071c049e.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

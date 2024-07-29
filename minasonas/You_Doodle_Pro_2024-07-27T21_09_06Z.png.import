@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dif4knuystu8"
-path.s3tc="res://.godot/imported/You_Doodle_Pro_2024-07-27T21_09_06Z.png-3e1a8d1c4d80a7b5d59cf907197a873e.s3tc.ctex"
+uid="uid://d1to8g4rgtt22"
+path="res://.godot/imported/You_Doodle_Pro_2024-07-27T21_09_06Z.png-3e1a8d1c4d80a7b5d59cf907197a873e.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/You_Doodle_Pro_2024-07-27T21_09_06Z.png"
-dest_files=["res://.godot/imported/You_Doodle_Pro_2024-07-27T21_09_06Z.png-3e1a8d1c4d80a7b5d59cf907197a873e.s3tc.ctex"]
+dest_files=["res://.godot/imported/You_Doodle_Pro_2024-07-27T21_09_06Z.png-3e1a8d1c4d80a7b5d59cf907197a873e.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

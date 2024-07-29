@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uqdqgun2qjfy"
-path.s3tc="res://.godot/imported/Miyawan.png-f404e009e898072c389c17d28c5ded9e.s3tc.ctex"
+uid="uid://bla523d6amp1x"
+path="res://.godot/imported/Miyawan.png-f404e009e898072c389c17d28c5ded9e.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Miyawan.png"
-dest_files=["res://.godot/imported/Miyawan.png-f404e009e898072c389c17d28c5ded9e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Miyawan.png-f404e009e898072c389c17d28c5ded9e.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

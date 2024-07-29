@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://imp5crtmm2d4"
-path.s3tc="res://.godot/imported/Decruns_Minasona_v2.0.png-0b98cf4d9dbc2308985e67a865dfdf1d.s3tc.ctex"
+uid="uid://c71klyv53yfbi"
+path="res://.godot/imported/Decruns_Minasona_v2.0.png-0b98cf4d9dbc2308985e67a865dfdf1d.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Decruns_Minasona_v2.0.png"
-dest_files=["res://.godot/imported/Decruns_Minasona_v2.0.png-0b98cf4d9dbc2308985e67a865dfdf1d.s3tc.ctex"]
+dest_files=["res://.godot/imported/Decruns_Minasona_v2.0.png-0b98cf4d9dbc2308985e67a865dfdf1d.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

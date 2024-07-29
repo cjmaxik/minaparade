@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck3uk0ppye7kb"
-path="res://.godot/imported/party.png-c057ed24ef323d7d9f23f6b0f8150989.ctex"
+uid="uid://jqralub8kd8c"
+path="res://.godot/imported/LETSGO.webp-e4c3ddca91148913c5ca65008c761a1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://emotes/party.png"
-dest_files=["res://.godot/imported/party.png-c057ed24ef323d7d9f23f6b0f8150989.ctex"]
+source_file="res://emotes/LETSGO.webp"
+dest_files=["res://.godot/imported/LETSGO.webp-e4c3ddca91148913c5ca65008c761a1c.ctex"]
 
 [params]
 

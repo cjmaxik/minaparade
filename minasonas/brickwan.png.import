@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cejxjiqp7v1hr"
-path.s3tc="res://.godot/imported/brickwan.png-ae844f5e89dd5f8330b5a0591cdeb5bb.s3tc.ctex"
+uid="uid://capnjvv8ovj4s"
+path="res://.godot/imported/brickwan.png-ae844f5e89dd5f8330b5a0591cdeb5bb.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/brickwan.png"
-dest_files=["res://.godot/imported/brickwan.png-ae844f5e89dd5f8330b5a0591cdeb5bb.s3tc.ctex"]
+dest_files=["res://.godot/imported/brickwan.png-ae844f5e89dd5f8330b5a0591cdeb5bb.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

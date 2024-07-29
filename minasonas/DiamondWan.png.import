@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cw07lkh7er7iy"
-path.s3tc="res://.godot/imported/DiamondWan.png-9cac9870548cdb54b8409917f29b8b43.s3tc.ctex"
+uid="uid://qon526iwhcdq"
+path="res://.godot/imported/DiamondWan.png-9cac9870548cdb54b8409917f29b8b43.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/DiamondWan.png"
-dest_files=["res://.godot/imported/DiamondWan.png-9cac9870548cdb54b8409917f29b8b43.s3tc.ctex"]
+dest_files=["res://.godot/imported/DiamondWan.png-9cac9870548cdb54b8409917f29b8b43.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

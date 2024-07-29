@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ulu6osqqxspc"
-path.s3tc="res://.godot/imported/minaspy.png-5f3d472639709a143ca748978ce641be.s3tc.ctex"
+uid="uid://fq8iq8x0pj6w"
+path="res://.godot/imported/minaspy.png-5f3d472639709a143ca748978ce641be.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/minaspy.png"
-dest_files=["res://.godot/imported/minaspy.png-5f3d472639709a143ca748978ce641be.s3tc.ctex"]
+dest_files=["res://.godot/imported/minaspy.png-5f3d472639709a143ca748978ce641be.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

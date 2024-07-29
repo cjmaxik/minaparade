@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bicpmr310qy1i"
-path.s3tc="res://.godot/imported/Ayumuwan.png-ab40872c9e6700fb3479a5047edf2711.s3tc.ctex"
+uid="uid://c4t2ljkujs02e"
+path="res://.godot/imported/Ayumuwan.png-ab40872c9e6700fb3479a5047edf2711.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Ayumuwan.png"
-dest_files=["res://.godot/imported/Ayumuwan.png-ab40872c9e6700fb3479a5047edf2711.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ayumuwan.png-ab40872c9e6700fb3479a5047edf2711.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

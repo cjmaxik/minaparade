@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbm8bffsoq48a"
-path.s3tc="res://.godot/imported/EeveeWan.png-cc55dbbf1e16923978b5cb2a9b77c3ae.s3tc.ctex"
+uid="uid://d1k5c28bssd5m"
+path="res://.godot/imported/EeveeWan.png-cc55dbbf1e16923978b5cb2a9b77c3ae.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/EeveeWan.png"
-dest_files=["res://.godot/imported/EeveeWan.png-cc55dbbf1e16923978b5cb2a9b77c3ae.s3tc.ctex"]
+dest_files=["res://.godot/imported/EeveeWan.png-cc55dbbf1e16923978b5cb2a9b77c3ae.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfedgxxkrjcec"
-path.s3tc="res://.godot/imported/Tsyte-wan.png-00d7c0111756aa2b86a3c43751f572c5.s3tc.ctex"
+uid="uid://p1vlcy7hu58i"
+path="res://.godot/imported/Tsyte-wan.png-00d7c0111756aa2b86a3c43751f572c5.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Tsyte-wan.png"
-dest_files=["res://.godot/imported/Tsyte-wan.png-00d7c0111756aa2b86a3c43751f572c5.s3tc.ctex"]
+dest_files=["res://.godot/imported/Tsyte-wan.png-00d7c0111756aa2b86a3c43751f572c5.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

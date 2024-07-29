@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cljpn42wwxamv"
-path.s3tc="res://.godot/imported/Scottwan.png-edc4555a716de61044889b70a0707353.s3tc.ctex"
+uid="uid://08nh1nsrq7qr"
+path="res://.godot/imported/Scottwan.png-edc4555a716de61044889b70a0707353.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Scottwan.png"
-dest_files=["res://.godot/imported/Scottwan.png-edc4555a716de61044889b70a0707353.s3tc.ctex"]
+dest_files=["res://.godot/imported/Scottwan.png-edc4555a716de61044889b70a0707353.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

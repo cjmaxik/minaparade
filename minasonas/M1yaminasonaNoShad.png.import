@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drbwewm7puksx"
-path.s3tc="res://.godot/imported/M1yaminasonaNoShad.png-dca42cbf6dc44a5ee724d25351acf778.s3tc.ctex"
+uid="uid://brc83aeg5u1ds"
+path="res://.godot/imported/M1yaminasonaNoShad.png-dca42cbf6dc44a5ee724d25351acf778.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/M1yaminasonaNoShad.png"
-dest_files=["res://.godot/imported/M1yaminasonaNoShad.png-dca42cbf6dc44a5ee724d25351acf778.s3tc.ctex"]
+dest_files=["res://.godot/imported/M1yaminasonaNoShad.png-dca42cbf6dc44a5ee724d25351acf778.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

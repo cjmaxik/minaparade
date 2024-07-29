@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgwisjdxci7pq"
-path.s3tc="res://.godot/imported/Muffinwan.png-e62876938ad977b3645269eaed6c322f.s3tc.ctex"
+uid="uid://d2vg5u8jvt3rh"
+path="res://.godot/imported/Muffinwan.png-e62876938ad977b3645269eaed6c322f.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Muffinwan.png"
-dest_files=["res://.godot/imported/Muffinwan.png-e62876938ad977b3645269eaed6c322f.s3tc.ctex"]
+dest_files=["res://.godot/imported/Muffinwan.png-e62876938ad977b3645269eaed6c322f.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

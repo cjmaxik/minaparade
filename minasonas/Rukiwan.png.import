@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dscvfejt1u2oc"
-path.s3tc="res://.godot/imported/Rukiwan.png-da16e0e0d2e7a45ff44507d8befc056d.s3tc.ctex"
+uid="uid://bnii6e0i3lmit"
+path="res://.godot/imported/Rukiwan.png-da16e0e0d2e7a45ff44507d8befc056d.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Rukiwan.png"
-dest_files=["res://.godot/imported/Rukiwan.png-da16e0e0d2e7a45ff44507d8befc056d.s3tc.ctex"]
+dest_files=["res://.godot/imported/Rukiwan.png-da16e0e0d2e7a45ff44507d8befc056d.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

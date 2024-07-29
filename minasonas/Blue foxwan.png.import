@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7nyfs34bi5qy"
-path.s3tc="res://.godot/imported/Blue foxwan.png-5c28aaeb0d43c7456f74a4037b478c76.s3tc.ctex"
+uid="uid://b7mpim56qw5g2"
+path="res://.godot/imported/Blue foxwan.png-5c28aaeb0d43c7456f74a4037b478c76.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://minasonas/Blue foxwan.png"
-dest_files=["res://.godot/imported/Blue foxwan.png-5c28aaeb0d43c7456f74a4037b478c76.s3tc.ctex"]
+dest_files=["res://.godot/imported/Blue foxwan.png-5c28aaeb0d43c7456f74a4037b478c76.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
