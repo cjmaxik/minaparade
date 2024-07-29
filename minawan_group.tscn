@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://c7nyfs34bi5qy" path="res://minasonas/Blue foxwan.png" id="3_uj8co"]
 [ext_resource type="Shader" path="res://balloon.gdshader" id="4_a7t8d"]
 [ext_resource type="Texture2D" uid="uid://cejxjiqp7v1hr" path="res://minasonas/brickwan.png" id="4_ex5gi"]
-[ext_resource type="Texture2D" uid="uid://h2musdjpdodv" path="res://emotes/MILC.png" id="5_aiac5"]
+[ext_resource type="Texture2D" uid="uid://ba21yicowquc2" path="res://emotes/Munch.webp" id="5_5pdvw"]
 [ext_resource type="Shader" path="res://label.gdshader" id="5_i05rs"]
 [ext_resource type="Texture2D" uid="uid://c3y0iqkflt2ru" path="res://minasonas/CabbagewanTransparentBg.png" id="5_nymny"]
 [ext_resource type="Texture2D" uid="uid://bnuwpjorjcc4e" path="res://rickroll.png" id="8_35jk3"]
@@ -44,9 +44,9 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_fpk7b"]
 resource_name = "bouncing"
-length = 1.6
+length = 1.2
 loop_mode = 1
-step = 0.1
+step = 0.05
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -54,7 +54,7 @@ tracks/0/path = NodePath("Minawan1:rotation")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.436332, 0.0, -0.436332, 0.0]
@@ -66,7 +66,7 @@ tracks/1/path = NodePath("Minawan3:rotation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.436332, 0.0, -0.436332, 0.0]
@@ -78,7 +78,7 @@ tracks/2/path = NodePath("Minawan4:rotation")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.436332, 0.0, -0.436332, 0.0]
@@ -90,7 +90,7 @@ tracks/3/path = NodePath("Minawan2:rotation")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.436332, 0.0, -0.436332, 0.0]
@@ -102,7 +102,7 @@ tracks/4/path = NodePath("Minawan0:rotation")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"times": PackedFloat32Array(0, 0.3, 0.6, 0.9, 1.2),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.436332, 0.0, -0.436332, 0.0]
@@ -114,7 +114,7 @@ tracks/5/path = NodePath("Balloon0:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(0, 0.8),
+"times": PackedFloat32Array(0, 0.75),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [0.261799, 0.0]
@@ -126,7 +126,7 @@ tracks/6/path = NodePath("Balloon3:rotation")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
-"times": PackedFloat32Array(0.3, 1.2),
+"times": PackedFloat32Array(0.3, 1.05),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [0.0, 0.174533]
@@ -154,7 +154,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_e174w"]
 resource_name = "moving"
-length = 15.0
+length = 18.0
 tracks/0/type = "bezier"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -163,8 +163,8 @@ tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "handle_modes": PackedInt32Array(0, 0),
-"points": PackedFloat32Array(1900, -0.25, 0, 0.25, 0, -1050, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(0, 15)
+"points": PackedFloat32Array(1825, -0.25, 0, 0.25, 0, -1050, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 18)
 }
 tracks/1/type = "method"
 tracks/1/imported = false
@@ -173,7 +173,7 @@ tracks/1/path = NodePath(".")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(6.03333, 15),
+"times": PackedFloat32Array(7, 18),
 "transitions": PackedFloat32Array(1, 1),
 "values": [{
 "args": [],
@@ -571,15 +571,16 @@ animations = [{
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_74176"]
 shader = ExtResource("4_a7t8d")
-shader_parameter/bloat_factor = 5.0
+shader_parameter/bloat_factor = 3.818
+shader_parameter/outline_thickness = 0.1
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_b34ur"]
 shader = ExtResource("5_i05rs")
-shader_parameter/arc_radius = 784.09
+shader_parameter/arc_radius = 775.454
 shader_parameter/label_size = Vector2(553, 113)
 
 [node name="MinawanGroup" type="Node2D"]
-position = Vector2(1878, 438)
+position = Vector2(1878, 440)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_d3xtq")
 
@@ -611,10 +612,10 @@ offset = Vector2(170, -232)
 
 [node name="Emote" type="Sprite2D" parent="Balloon0"]
 material = SubResource("ShaderMaterial_74176")
-position = Vector2(236.827, -365.413)
+position = Vector2(235.255, -364.38)
 rotation = 0.399279
-scale = Vector2(4.48271, 4.48271)
-texture = ExtResource("5_aiac5")
+scale = Vector2(3.79359, 3.87035)
+texture = ExtResource("5_5pdvw")
 
 [node name="Banner" type="Sprite2D" parent="."]
 position = Vector2(1004, -50)
@@ -634,22 +635,24 @@ anchor_left = 0.5
 anchor_top = 0.26
 anchor_right = 0.5
 anchor_bottom = 0.26
-offset_left = -604.941
-offset_top = -293.04
-offset_right = -51.941
-offset_bottom = -180.04
+offset_left = -603.882
+offset_top = -295.157
+offset_right = -50.8822
+offset_bottom = -180.157
 grow_horizontal = 2
-rotation = -0.0349066
 pivot_offset = Vector2(256.176, 60.6471)
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(0.823529, 0.113725, 0.466667, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -5
 theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("8_psd1h")
 theme_override_font_sizes/font_size = 81
-text = "Man I love Cerber"
+text = "Man I love
+Cerber"
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="MinawanShadow" type="Sprite2D" parent="."]
 visible = false
@@ -679,16 +682,15 @@ texture = ExtResource("5_nymny")
 clip_children = 2
 position = Vector2(1525.2, 808.287)
 rotation = 0.198968
-scale = Vector2(1, 1)
 texture = ExtResource("9_xc832")
 offset = Vector2(219.596, -250.637)
 
 [node name="Emote" type="Sprite2D" parent="Balloon3"]
 material = SubResource("ShaderMaterial_74176")
-position = Vector2(323.048, -383.501)
+position = Vector2(324.014, -382.238)
 rotation = 0.505434
-scale = Vector2(5.15783, 5.15783)
-texture = ExtResource("5_aiac5")
+scale = Vector2(4.41915, 4.47934)
+texture = ExtResource("5_5pdvw")
 
 [node name="Minawan3" type="Sprite2D" parent="."]
 position = Vector2(1456, 698)

@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://b14nvqjmf7o4m"]
+[gd_scene load_steps=6 format=3 uid="uid://b14nvqjmf7o4m"]
 
 [ext_resource type="Script" path="res://parade.gd" id="1_and54"]
 [ext_resource type="Texture2D" uid="uid://dhupmhasno37p" path="res://background.png" id="2_vf6km"]
 [ext_resource type="AudioStream" uid="uid://eg5op5ga0od3" path="res://march.ogg" id="3_biooo"]
+[ext_resource type="Texture2D" uid="uid://cuj10utwd0amu" path="res://live.png" id="4_rt55r"]
+[ext_resource type="Texture2D" uid="uid://b1pv7k48gyu2d" path="res://goober-here.png" id="5_2k3g1"]
 
 [node name="Parade" type="Node2D"]
 script = ExtResource("1_and54")
@@ -45,6 +47,11 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.647, 0.314, 0.875, 0.8)
 
+[node name="Live" type="Sprite2D" parent="Control2"]
+z_index = 1
+texture = ExtResource("4_rt55r")
+centered = false
+
 [node name="CenterContainer" type="CenterContainer" parent="Control2"]
 layout_mode = 1
 anchors_preset = 15
@@ -60,19 +67,21 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 bbcode_enabled = true
-text = "[font_size=48][center][b]Dear Cerber![/b]
+text = "[font_size=43][center][b]Dear Cerber![/b]
 
 This parade, and the showcase earlier, is dedicated to [b]You[/b]. 
 We all wouldn't be here without your undeniable cuteness, unbelievable will to move forward, and incredible charisma. 
 You have a natural talent to bring everyone together 
-and to make an ordinary day better.
+and to make an ordinary day much better.
 
 Thank you for everything you've done for this community. 
 We will make sure to return your generosity tenfold.
 
+
 [i][b]Sincerely,
 SCP Foundation[/b]"
 fit_content = true
+scroll_active = false
 
 [node name="Label" type="Label" parent="Control2"]
 layout_mode = 1
@@ -111,6 +120,13 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.647059, 0.313726, 0.87451, 1)
 
+[node name="GooberHere" type="Sprite2D" parent="Control"]
+unique_name_in_owner = true
+position = Vector2(1298, 621)
+scale = Vector2(0.153722, 0.153722)
+texture = ExtResource("5_2k3g1")
+centered = false
+
 [node name="CenterContainer" type="CenterContainer" parent="Control"]
 unique_name_in_owner = true
 layout_mode = 1
@@ -129,19 +145,24 @@ grow_vertical = 2
 [node name="VBoxContainer" type="VBoxContainer" parent="Control/CenterContainer"]
 layout_mode = 2
 
+[node name="Label" type="Label" parent="Control/CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Hit F11 now to enable fullscreen
+Put yourself in the designated corner
+
+Press \"I AM READY\" when you are ready
+
+"
+horizontal_alignment = 1
+
 [node name="Button" type="Button" parent="Control/CenterContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 focus_mode = 0
 theme_override_font_sizes/font_size = 60
-text = "   START THE PARADE   "
-
-[node name="Label" type="Label" parent="Control/CenterContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 30
-text = "Fullscreen will be enabled automatically
-(or hit F11 now)"
-horizontal_alignment = 1
+text = "   I AM READY   "
 
 [connection signal="pressed" from="Control/CenterContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]

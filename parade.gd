@@ -8,11 +8,18 @@ var chants: Array = [
 	["Man I love Cerber", load("res://emotes/MILC.png")],
 	["MOGU MOGU", load("res://emotes/party.png")],
 	["Man I love Slugber", load("res://emotes/MILS.webp")],
-	["WHERE IS CERBER", load("res://emotes/WHERE.png")],
+	["Lore video\npremiere NOW!", load("res://emotes/Munch.webp")],
 	["Man I love Orber", load("res://emotes/MILO.png")],
-	["AWOOOOOOOOOO", load("res://emotes/awoo.png")],
+	["WAN WAN WAN WAN", load("res://emotes/WANWAN.png")],
 	["Man I love Ember", load("res://emotes/MILE.webp")],
+	["AWOOOOOOOOOO", load("res://emotes/awoo.png")],
 	["PRAISE THE ORBER", load("res://emotes/flushed.webp")],
+	["Fwoot punch\nfor everywan!", load("res://emotes/YAY.webp")],
+	["WHERE IS CERBER", load("res://emotes/WHERE.png")],
+	["Pay your taxes!", load("res://emotes/Pet.webp")],
+	["THEY ARE\nCHOCOLATE", load("res://emotes/Smug.webp")],
+	["Stay away\nnoise monster", load("res://emotes/Angy.webp")],
+	["Butter dawg", load("res://emotes/Angy.webp")],
 ]
 var current_chant: int = 0
 
@@ -47,6 +54,7 @@ func _process(_delta: float) -> void:
 func _ready() -> void:
 	$Control2.modulate.a = 0
 	$Control2/Label.modulate.a = 0
+	$Control2/Live.modulate.a = 0
 
 	randomize()
 	all_minawan.shuffle()
@@ -85,14 +93,15 @@ func _chunk(array: Array, chunkSize: int) -> Array:
 	return chunks
 
 func _on_button_pressed() -> void:
-	%CenterContainer.visible = false
+	$BGM.play()
+
+	%CenterContainer.queue_free()
+	%GooberHere.queue_free()
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	await get_tree().create_timer(0.5).timeout
 
-	$BGM.play()
-
 	var tween = get_tree().create_tween()
-	tween.tween_property($Control/ColorRect, "modulate:a", 0, 10.0)
+	tween.tween_property($Control/ColorRect, "modulate:a", 0, 9.5)
 	await tween.finished
 
 	$Control.queue_free()
@@ -105,5 +114,6 @@ func _closing_parade() -> void:
 	tween.tween_property($Control2, "modulate:a", 1.0, 10.0)
 	await tween.finished
 
-	var tween2 = get_tree().create_tween()
-	tween2.tween_property($Control2/Label, "modulate:a", 1.0, 5.0)
+	tween = get_tree().create_tween()
+	tween.parallel().tween_property($Control2/Label, "modulate:a", 1.0, 5.0)
+	tween.parallel().tween_property($Control2/Live, "modulate:a", 1.0, 5.0)
