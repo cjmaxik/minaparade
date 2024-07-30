@@ -7,6 +7,7 @@ var last_group: Array = [
 	load("res://minasonas/Kaliwan.png"),
 	load("res://minasonas/jenwan.png"),
 	load("res://minasonas/Jokerwan.png"),
+	load("res://minasonas/Goosewan.png"),
 ]
 var started: bool = false
 
@@ -36,9 +37,9 @@ func _init() -> void:
 	for fname in DirAccess.get_files_at(path):
 		var import_name: String = fname.trim_suffix(".import")
 		if fname.ends_with(".import") and ResourceLoader.exists(path + import_name):
-			print_debug("Found %s" % import_name)
-			if fname.begins_with("CJwan") or fname.begins_with("jenwan") or fname.begins_with("Kaliwan") or fname.begins_with("Jokerwan"):
-				print_debug("--- Skipping %s" % import_name)
+			print("Found %s" % import_name)
+			if fname.trim_suffix(".png.import") in ["CJwan", "Kaliwan", "jenwan", "Jokerwan", "Goosewan"]:
+				print("--- Skipping %s" % import_name)
 				continue
 			else:
 				var minawan = load(path + import_name)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8e1b0nqelknq"
-path="res://.godot/imported/AbyssWan.png-f97e217a8cd7f5490c181b8dbd1c1b31.ctex"
+uid="uid://bdixjp67limul"
+path="res://.godot/imported/Image_1722341272501.png-c7b297ef05a3b0dd4a96d067a253579a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://minasonas/AbyssWan.png"
-dest_files=["res://.godot/imported/AbyssWan.png-f97e217a8cd7f5490c181b8dbd1c1b31.ctex"]
+source_file="res://minasonas/Image_1722341272501.png"
+dest_files=["res://.godot/imported/Image_1722341272501.png-c7b297ef05a3b0dd4a96d067a253579a.ctex"]
 
 [params]
 
