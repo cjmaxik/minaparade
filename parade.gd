@@ -109,9 +109,11 @@ func _on_button_pressed() -> void:
 	
 	%CenterContainer.visible = false
 	%GooberHere.visible = false
+	await get_tree().create_timer(0.1).timeout
+	
 	$BGM.play()
-
-	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
+	if DisplayServer.window_get_mode() != DisplayServer.WINDOW_MODE_FULLSCREEN:
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	await get_tree().create_timer(0.5).timeout
 
 	var tween = get_tree().create_tween()
