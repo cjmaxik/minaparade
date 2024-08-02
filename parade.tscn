@@ -48,6 +48,7 @@ grow_vertical = 2
 color = Color(0.647, 0.314, 0.875, 0.8)
 
 [node name="Live" type="Sprite2D" parent="Control2"]
+visible = false
 z_index = 1
 texture = ExtResource("4_rt55r")
 centered = false
@@ -98,7 +99,8 @@ grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 24
-text = "F11 or Esc to exit the fullscreen mode"
+text = "F11 or Esc to exit the fullscreen mode
+R to repeat the parade"
 horizontal_alignment = 1
 
 [node name="Control" type="Control" parent="."]
@@ -122,6 +124,7 @@ color = Color(0.647059, 0.313726, 0.87451, 1)
 
 [node name="GooberHere" type="Sprite2D" parent="Control"]
 unique_name_in_owner = true
+visible = false
 position = Vector2(1298, 621)
 scale = Vector2(0.153722, 0.153722)
 texture = ExtResource("5_2k3g1")
@@ -150,7 +153,6 @@ layout_mode = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 text = "Hit F11 now to enable fullscreen
-Put yourself in the designated corner
 
 Press \"I AM READY\" when you are ready
 (it might take a while to load)

@@ -59,6 +59,9 @@ func _process(_delta: float) -> void:
 		else:
 			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 
+	if Input.is_action_just_pressed("restart"):
+		get_tree().reload_current_scene()
+
 func _ready() -> void:
 	$Control2.modulate.a = 0
 	$Control2/Label.modulate.a = 0
